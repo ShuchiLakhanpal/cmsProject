@@ -1,0 +1,75 @@
+@media screen and (max-width:768px) {
+    .author {
+        background: #f7f7f7;
+        padding: 20px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .author img {
+        width: 30%;
+    }
+    .author h4 {
+        color: black;
+        text-decoration: underline;
+    }
+    .author p {
+        font-weight: 100;
+    }
+    .comment {
+        background: #f7f7f7;
+        padding: 20px;
+        margin-bottom: 15px;
+    }
+    .comment h4 {
+        color: skyblue;
+    }
+    .comment img {
+        width: 30%;
+    }
+    .comment p {
+        font-weight: 100;
+    }
+    .sideBarTopAdmin {
+        position: inherit;
+    }
+    /*.sideBarTopDashBoard {
+        margin-top: 314px;
+    }*/
+}
+
+
+/* @media screen and (max-width: 699px) and (min-width: 520px) */
+
+@media screen and (min-width:230px) and (max-width:1000px) {
+    .sideBarTopAdmin {
+        position: unset;
+    }
+    /*.sideBarTopDashBoard {
+        margin-top: 314px;
+    }*/
+    body {
+        /*overflow-x: hidden;*/
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:1385px) and (min-width:967px) {
+    body {
+        /*overflow-x: hidden;*/
+        font-size: 11px;
+    }
+    .sideBarTopAdmin {
+        padding-right: 102px;
+        /*position: unset;*/
+    }
+    .table {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:999px) and (min-width:989px) {
+    .sideBarTopAdmin {
+        /*padding-right: 93px;*/
+        width: max-content;
+    }
+}

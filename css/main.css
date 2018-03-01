@@ -1,0 +1,275 @@
+body,
+html {
+    height: 100%;
+}
+
+#wrapper {
+    position: relative;
+    min-height: 100%;
+}
+
+.imageLogo {
+    width: 25px;
+    height: 25px;
+    margin-top: -5px;
+}
+
+.logo {
+    display: inline-flex;
+}
+
+.textLogo {
+    padding-left: 10px;
+    color: white;
+}
+
+.menu>li>a {
+    padding-left: 9px;
+    padding-right: 0;
+}
+
+.menuText .menu>li>a {
+    color: #d9edf7;
+}
+
+#iconFonts {
+    padding-right: 5px;
+}
+
+.dropdown .dropdown-menu {
+    text-align: center;
+}
+
+.newsTickerCon {
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.newsTickerCon ul {
+    display: inline-flex;
+    list-style: none;
+    -webkit-padding-start: 0;
+    margin-bottom: 0;
+    width: 100%;
+    width: -moz-available;
+    /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;
+    /* Mozilla-based browsers will ignore this. */
+    background-color: rgba(0, 0, 0, 0.18)
+}
+
+.newsTickerCon li {
+    /*background: rgba(0, 0, 0, 0.1) scroll left center;*/
+    color: black;
+    float: left;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 11px 15px;
+    white-space: nowrap;
+}
+
+.buttonTckr {
+    display: inline-flex;
+    padding-left: 50px;
+    width: 100%;
+    margin-top: -5px;
+    background-color: cornsilk;
+}
+
+.btnTckr {
+    font-size: x-large;
+}
+
+.alignBttnTckr {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*---carousel--------------*/
+
+.imageCarousel {
+    width: 750px;
+    /*height: 116px;*/
+}
+
+.carousel-inner>.item>img {
+    height: 420px;
+}
+
+
+/*--------------------------------------news----------------------*/
+
+.news {
+    background: #f7f7f7;
+    border: 1px solid white;
+    margin: 15px 0px;
+}
+
+.news .news-date {
+    /*padding: 20px;*/
+    padding: 5px 20px;
+    text-align: center;
+    /*border-right: 0.5px solid black;*/
+}
+
+.news .news-date .day {
+    font-size: 30px;
+    color: skyblue;
+}
+
+.news .news-date .month {
+    color: skyblue;
+}
+
+.news .news-date .year {
+    font-weight: 100;
+}
+
+.news .news-title {
+    padding: 4px 20px;
+    border-left: 0.5px solid black;
+}
+
+.news .news-title span {
+    color: skyblue;
+    font-weight: 100;
+    margin-left: 10px;
+}
+
+.news .imageNews {
+    width: 95%;
+    margin-top: -10px;
+    height: 269px;
+    margin-left: 15px;
+}
+
+
+/*------------------widget----*/
+
+.headingLine {
+    width: 80%;
+    border: 0.5px solid black;
+}
+
+.sideBar {
+    margin-top: 20px;
+}
+
+.searchBar {
+    width: 100%;
+}
+
+section .widgets {
+    margin-bottom: 20px;
+    /*float: right;*/
+}
+
+.popular {
+    padding: 20px;
+    background: #f5f5f5;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 4px 5px #eee;
+}
+
+.popular .details {
+    margin-left: -20px;
+}
+
+.popular ul li {
+    list-style: none;
+}
+
+.popular p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.popular img {
+    width: 100%;
+    margin-top: 12px;
+    height: 80px;
+}
+
+.imageWidget {
+    height: 80px;
+    width: 85px;
+}
+
+
+/*------------------footer-------*/
+
+footer {
+    height: 50px;
+    background-color: black;
+    z-index:10;
+    color: white;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.social {
+    display: inline-flex;
+}
+
+.social li {
+    list-style: none;
+    font-size: 12px;
+}
+
+.socialIcons ul {
+    -webkit-padding-start: 0;
+}
+
+.social img {
+    vertical-align: bottom;
+}
+
+.icons {
+    width: 2em;
+    height: 1.7em;
+    padding-top: 0.11em;
+    margin-bottom: -7px;
+}
+
+.iconsGPlus {
+    /*width: 2em;*/
+    height: 2.5em;
+    /*padding-top: 0.12em;*/
+    margin-bottom: -8px;
+}
+
+.iconsTwitter {
+    width: 1.2em;
+    padding-top: 0.1em;
+    margin-bottom: -5px;
+}
+
+.socialIcons {
+    display: block;
+}
+
+#text {
+    font-size: 12px;
+    line-height: 24px;
+}
+
+footer h6 {
+    text-align: center;
+    line-height: 50px;
+    margin-top: -53px;
+    font-size: 8px;
+    margin-bottom: 0;
+}
+
+footer ul {
+    margin-bottom: 0;
+}
+.comment-box.col-xs-12
+{
+    z-index:0;
+}
